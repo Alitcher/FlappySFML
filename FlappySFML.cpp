@@ -1,14 +1,14 @@
 // FlappySFML.cpp : This file contains the 'main' function. Program execution begins and ends there.
-////
-//
+
 #include <iostream>
-//#include <SFML/Graphics.hpp>
-//
-//#define SCREEN_WIDTH 900
-//#define SCREED_HEIGHT 1600
+#include "Game.hpp"
+
+#define SCREEN_WIDTH 900
+#define SCREED_HEIGHT 1600
 
 int main()
 {
+	AlitcherLab::Game(SCREEN_WIDTH, SCREED_HEIGHT, "FlappySFML");
  //   sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREED_HEIGHT), "Alicia FlappySFML");
 
 	//while (window.isOpen())
