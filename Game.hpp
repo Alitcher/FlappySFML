@@ -1,10 +1,12 @@
 #pragma once
+#include <iostream>
 #include <memory>
 #include <string>
 #include <SFML/Graphics.hpp>
 #include "StateMachine.hpp"
 #include "AssetManager.hpp"
 #include "InputManager.hpp"
+#include "DEFINITIONS.hpp"
 
 namespace AlitcherLab 
 {

@@ -3,9 +3,6 @@
 #include <iostream>
 #include "Game.hpp"
 
-#define SCREEN_WIDTH 900
-#define SCREED_HEIGHT 1600
-
 int main()
 {
 	AlitcherLab::Game(SCREEN_WIDTH, SCREED_HEIGHT, "FlappySFML");
