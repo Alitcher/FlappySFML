@@ -1,5 +1,4 @@
 #include "Game.hpp"
-#pragma once
 
 namespace AlitcherLab
 {

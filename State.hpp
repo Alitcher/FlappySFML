@@ -12,26 +12,7 @@ namespace AlitcherLab
 		virtual void Pause();
 		virtual void Resume();
 
-		State();
-		~State();
-
 	private:
 
 	};
-
-	inline void State::Pause()
-	{
-	}
-
-	inline void State::Resume()
-	{
-	}
-
-	State::State()
-	{
-	}
-
-	State::~State()
-	{
-	}
 }
