@@ -31,6 +31,7 @@ namespace AlitcherLab
 
     void SplashState::Update(float dt)
     {
+        (void)dt;
         if (this->_clock.getElapsedTime().asSeconds() > SPLASH_STATE_SHOW_TIME)
         {
             // Switch To Main Menu
@@ -40,5 +41,6 @@ namespace AlitcherLab
 
     void SplashState::Render(float dt)
     {
+        (void)dt;
     }
 }

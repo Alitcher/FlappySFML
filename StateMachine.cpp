@@ -12,6 +12,7 @@ namespace AlitcherLab
 
 	void StateMachine::AddState(StateRef newState, bool isReplacing) 
 	{
+		(void)isReplacing;
 		this->_isAdding = true;
 		this->_isReplacing = true;
 		this->_newState = std::move(newState);
